@@ -1,0 +1,416 @@
+/* plus-jakarta-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fontFamly/plus-jakarta-sans-v7-latin-regular.woff2")
+      format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("../fontFamly/plus-jakarta-sans-v7-latin-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Plus Jakarta Sans";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fontFamly/plus-jakarta-sans-v7-latin-500italic.woff2")
+      format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("../fontFamly/plus-jakarta-sans-v7-latin-500italic.woff")
+      format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fontFamly/plus-jakarta-sans-v7-latin-600.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("../fontFamly/plus-jakarta-sans-v7-latin-600.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fontFamly/plus-jakarta-sans-v7-latin-700.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      url("../fontFamly/plus-jakarta-sans-v7-latin-700.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: "Plus Jakarta Sans", "Arial" sans-serif;
+}
+.container {
+  width: 1260px;
+  margin: 0px auto;
+  padding: 0 20px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+
+.navbar-box {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.navvar-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.navvar-helper {
+  display: flex;
+  margin: 0;
+}
+.navbar-menu {
+  margin-right: 30px;
+}
+.navbar-enker {
+  color: #fff;
+  margin: auto right;
+  background: #101010;
+  border-radius: 6px;
+  padding: 12px 24px;
+  margin-top: 24px;
+}
+.navbar-menu-link :hover {
+  color: #1aab7b;
+}
+.navbar-menu-link :active{
+
+  color: #1aab7b;
+  opacity: 0.6;
+}
+
+.hr {
+  background: #ffffff;
+  border-bottom: 1px solid #eeeef4;
+}
+.hero {
+  padding-top: 91px;
+  padding-bottom: 156px;
+}
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.hero-wrapper-information {
+  width: 550px;
+  margin: 0 auto;
+}
+
+.hero-wrapper-footer {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 140%;
+  color: #101010;
+  margin: 0;
+}
+.hero-wrapper-text {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #636f87;
+
+  margin-bottom: 40px;
+}
+
+/* .navbar-link{
+        margin: 0 auto;
+        padding-top: 24px;
+    } */
+.navbar-menu-link {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #101010;
+}
+.hero-wrapper-enker {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+
+  text-align: center;
+  padding: 20px 40px;
+  color: #fff;
+  border: 1px #1aab7b solid;
+  background-color: #1aab7b;
+  border-radius: 6px;
+}
+
+.hero-wrapper-enker:hover {
+  background: #ffffff;
+  border: 1.5px solid #1aab7b;
+  border-radius: 6px;
+  color: #1aab7b;
+}
+.hero-wrapper-enker :active{
+  background-color: #1aab7b;
+  opacity: 0.7;
+  color: #fff;
+}
+
+.Services {
+  width: 650px;
+  padding-top: 100px;
+  /* margin: 0 auto; */
+
+  margin: 0 auto;
+  text-align: center;
+}
+.services-work {
+  display: flex;
+  margin: 0;
+  margin-bottom: 16px;
+}
+.Services-cantent {
+  width: 488px;
+  margin-left: 32px;
+
+}
+.roower {
+  flex-direction: row-reverse;
+}
+.cantent {
+  width: 532px;
+}
+.sayt-footer-start-box {
+  display: flex;
+  justify-content: space-between;
+}
+.sayt-footer-start-services {
+  margin-right: 151px;
+}
+.sayt-footer-start-Connect {
+  margin: auto right;
+}
+.sayt-footer-start-child {
+  margin: 0;
+}
+.Services-footer{
+  font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 140%;
+margin: 0;
+color: #101010;
+}
+.Services-text{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #636F87;
+  margin: 0;
+  margin-top: 20px;
+
+}
+
+.boxxing {
+  display: flex;
+}
+
+.services-work{
+  font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 140%;
+margin-bottom: 100px;
+/* or 50px */
+
+text-align: center;
+
+color: #101010;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.home{
+  margin: 0;
+  margin-top: 90px;
+}
+
+.service-list{
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  row-gap: 32px;
+  column-gap:34px
+  
+}
+.services-work-text{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  margin: 0px;
+  /* or 27px */
+  
+  text-align: center;
+  
+  color: #636F87;
+}
+.sayt-footer-start-text {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  margin: 26px 0 26px 0;
+  color: #a1a8b7;
+  row-gap: 26px;
+  display: block;
+  column-gap: 26px;
+}
+.sayt-footer {
+  background-color: #101010;
+}
+.sayt-footer-start-text :hover{
+  color: #1aab7b;
+}
+.sayt-footer-start-text :active{
+  color: #1AAB7B;
+
+opacity: 0.8;
+}
+.sayt-footer-start-child-adress{
+  /* display: flex; */
+  display: block;
+}
+
+
+.service-list{
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.service-item{
+  width: 384px;
+  padding: 30px 30px 40px;
+  background: #F2F4F6;
+border: 2px solid #E1E7ED;
+border-radius: 6px;
+}
+.service-title-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  margin-bottom: 11px;
+}
+.service{
+  background-color: #F2F4F6;
+}
+.service-item-img-wrapper{
+  padding-left: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  width: 64px;
+  height: 64px;
+  background-color: #FFFFFF;
+border-radius: 84px;
+}
+.service-item-desc{
+  font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+/* or 27px */
+color: #636F87;
+}
+.service-item-link{
+  font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 140%;
+text-decoration: none;
+font-variant: all-small-caps;
+
+color: #000000;
+}
+.service-item:hover .service-item-desc{
+  color:#fff;
+
+}
+.service-item:hover .service-item-title{
+  color:#fff;
+
+}
+.service-item:hover .service-item-link{
+  
+  color:#fff;
+text-decoration: underline;
+}
+
+.service-item:hover{
+  background-color:#1AAB7B;
+  color:#fff;
+
+}
+
+.service-item:hover .service-item-img-wrapper{
+  background-color:#fff;
+}
+.service-item:hover .service-item-title{
+  color:#fff;
+
+}
+
+.cantent{
+  margin: 0;
+margin-right: 32px;
+}
+
+.link-heing{
+ display: flex;
+ justify-content: left;
+ align-items:center;
+}
+
